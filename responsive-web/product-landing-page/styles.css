@@ -1,10 +1,13 @@
 body {
     display: inline;
+    background-color: #eee;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
     position: fixed;
     width: 100%;
+    background-color: #eee;
 }
 
 .header {
@@ -37,4 +40,29 @@ header {
 
 #hero {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#hero input[type="email"] {
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#hero input[type="submit"] {
+    max-width: 150px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: #f1c40f;
+    border: none;
+    transition: 0.5s;
+}
+
+#hero input[type="submit"]:hover {
+    background-color: orange;
 }
