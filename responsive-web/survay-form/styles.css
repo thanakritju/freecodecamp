@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+#survey-form {
+    background-color: blue;
+    padding: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
