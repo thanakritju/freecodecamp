@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-img {
+    height: 40px;
+    width: auto;
+}
+
+#nav-bar {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: black;
+}
