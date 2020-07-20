@@ -51,6 +51,7 @@ header {
     width: 100%;
     padding: 5px;
     margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 #hero input[type="submit"] {
@@ -61,8 +62,51 @@ header {
     background-color: #f1c40f;
     border: none;
     transition: 0.5s;
+    margin-bottom: 50px;
 }
 
 #hero input[type="submit"]:hover {
     background-color: orange;
+}
+
+#features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
+.feature {
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 125px;
+    width: 200px;
+}
+
+i {
+    color: orange;
+    transition: 0.5s;
+}
+
+i:hover {
+    color: darkorange;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    width: 800px;
+}
+
+.description p,h2{
+    margin: 0;
+    padding: 0;
 }
