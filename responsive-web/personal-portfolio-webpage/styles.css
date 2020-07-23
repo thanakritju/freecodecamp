@@ -78,7 +78,7 @@ a {
     font-size: 2.5rem;
     border-bottom: 0.2rem solid var(--main-white);
     max-width: 640px;
-    margin: 2rem 2rem;
+    margin-bottom: 5rem;
     padding: 0rem 2rem;
 }
 
@@ -105,6 +105,16 @@ a {
     border-radius: 5px;
 }
 
+.code {
+    margin: 0rem 0.5rem;
+    color: var(--main-gray);
+    transition: color 0.3s ease-out;
+}
+
+.project-tile:hover .code {
+    color: orange;
+}
+
 .project-image {
     width: 100%;
     height: 300px;
@@ -116,10 +126,5 @@ a {
     margin: 1.2rem auto;
 }
 
-.code {
-    margin: 0rem 0.5rem;
-    color: var(--main-gray);
-    transition: 0.3 color ease-out;
-}
 
 
