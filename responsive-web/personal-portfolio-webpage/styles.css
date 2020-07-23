@@ -127,4 +127,42 @@ a {
 }
 
 
+#contact-section {
+    background-color: var(--main-gray);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
 
+.contact-header {
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.contact-subheader {
+    font-size: 1rem;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 3rem;
+}
+
+.profile-flex {
+    display: flex;
+}
+
+.profile-link {
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+
+.profile-link:hover {
+    padding-top: 1rem;
+}
+
+.profile-link i{
+    margin: 0.5rem;
+}
