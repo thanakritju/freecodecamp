@@ -138,6 +138,7 @@ a {
 }
 
 .contact-header {
+    text-align: center;
     font-size: 4rem;
     font-weight: 800;
     margin-bottom: 1rem;
@@ -152,15 +153,20 @@ a {
 
 .profile-flex {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50px;
 }
 
 .profile-link {
-    margin: 1rem;
+    margin: 0rem 1rem;
     font-size: 1.5rem;
+    height: 80%;
+    transition: 0.3s ease-out;
 }
 
 .profile-link:hover {
-    padding-top: 1rem;
+    margin-top: 5px;
 }
 
 .profile-link i{
