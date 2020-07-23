@@ -1,0 +1,36 @@
+:root {
+    --main-white: #f0f0f0;
+    --main-red: #be3144;
+    --main-blue: #45567d;
+    --main-gray: #303841;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    color: var(--main-gray);
+}
+
+#navbar {
+    background-color: var(--main-red);
+    height: 70px;
+    display: flex;
+    justify-content: end;
+}
+
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: var(--main-gray);
+}
+
+.nav-link {
+    padding: 20px;
+    text-decoration: none;
+}
